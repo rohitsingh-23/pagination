@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-color: white;
+}
+
+.cards-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin: 2% 10%;
+
+  
+}
+
+button {
+  border: 1px solid grey;
+  padding: 10px 15px;
+  margin: 1px;
+  font-size: 16px;
+  background-color: white;
+  color: rgb(98, 96, 96);
+  font-weight: 550;
+  margin-bottom: 30px;
+}
+
+.card{
+  padding: 30px;
+  border-radius: 10px;
+  text-align: left;
+  background-color: palegreen;
+  color: black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.selected{
+  background-color: blue;
+  color: white;
+}
